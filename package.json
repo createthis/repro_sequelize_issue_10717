@@ -1,0 +1,26 @@
+{
+  "name": "blah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/.bin/mocha --exit --timeout 40000 --full-trace"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/createthis/repro_sequelize_issue_10717.git"
+  },
+  "author": "Jesse CreateThis <jesse@createthis.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sequelize": "^5.16.0",
+    "sqlite3": "^4.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "should": "^13.2.3"
+  },
+  "engines": {
+    "node": ">=8.12.0"
+  }
+}
